@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 0px solid black;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,11 +49,41 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-bottom:20px;
+
+}
+
+.header-top{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    width:800px;
+}
+
+.header-nav{
+    display:flex;
+    justify-content:space-around;
+    width:75%;
+    color:
+}
+
+.header-nav a{
+    color:black;
+    text-decoration:none;
 }
 
 h1, h2, h3, h4, h5 {
@@ -111,7 +141,45 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box1{
+    background-color: teal;
+}
 
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +211,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-text{
+    padding: 0px 25px;
+    padding-bottom:25px;
+    border-bottom:1px dashed black;
+}
+
+.about-gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    
+}
+
+.about-gallery .gallery-box{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    width:43%;
+    justify-content:space-evenly;
+    padding:30px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-gallery .gallery-box button{
+    width:100px;
+    padding:5px 10px;
+    margin-top:15px;
+    border-radius:7px;
+    background-color:white;
+    border:2px black solid
+}
+
+.about-gallery .gallery-box img{
+    width:330px;
+    height:auto;
+}
+
+.about-gallery .gallery-box h2{
+    padding-top:15px;
+}
+
+.closing-content{
+    padding:35px 25px;
 }
