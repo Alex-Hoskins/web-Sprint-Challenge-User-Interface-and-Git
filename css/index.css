@@ -213,7 +213,7 @@ footer nav a {
 }
 
 .about-text{
-    padding: 20px;
+    padding: 25px;
     border-bottom:1px dashed black
 }
 
@@ -221,7 +221,7 @@ footer nav a {
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
-    margin:30px;
+    
 }
 
 .about-gallery .gallery-box{
@@ -239,8 +239,20 @@ footer nav a {
     padding:5px 10px;
     margin-top:15px;
     border-radius:7px;
+    background-color:white;
+    border:2px black solid
+}
+
+.about-gallery .gallery-box img{
+    width:330px;
+    height:auto;
 }
 
 .about-gallery .gallery-box h2{
     padding-top:15px;
+}
+
+.closing-content{
+    padding:25px;
+    
 }
