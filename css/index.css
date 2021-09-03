@@ -211,3 +211,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-text{
+    padding: 20px;
+    border-bottom:1px dashed black
+}
+
+.about-gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin:30px;
+}
+
+.about-gallery .gallery-box{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    width:43%;
+    justify-content:space-evenly;
+    padding:30px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-gallery .gallery-box button{
+    width:100px;
+    padding:5px 10px;
+    margin-top:15px;
+    border-radius:7px;
+}
+
+.about-gallery .gallery-box h2{
+    padding-top:15px;
+}
